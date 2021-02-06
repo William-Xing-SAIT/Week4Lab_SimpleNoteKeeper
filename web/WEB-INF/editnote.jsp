@@ -15,8 +15,8 @@
         <h1>Simple Note Keeper</h1>
         <h2>Edit Note</h2>
         <form action="Edit" method="post">
-            Title: <textarea   cols="20"   rows="1" name="title" style="OVERFLOW:hidden">${note.title}</textarea><br>
-            Contents: <textarea   cols="20"   rows="6" name="content" style="OVERFLOW:hidden">${note.content}</textarea><br>
+            Title: <textarea   cols="22"   rows="1" name="title" style="OVERFLOW:hidden">${note.title}</textarea><br>
+            Contents: <textarea   cols="22"   rows="6" name="content" style="OVERFLOW:hidden">${note.content}</textarea><br>
             <input type="submit" value="Save">
         </form>
     </body>
